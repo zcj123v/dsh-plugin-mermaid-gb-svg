@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860" role="img" aria-label="Mermaid 流程图转 GB/T 1526-1989 国标 SVG 对比">
+<rect width="1280" height="860" fill="#ffffff"/>
+<text x="44" y="62" font-family="SimHei, '黑体', 'Microsoft YaHei', sans-serif" font-size="34" font-weight="bold" fill="#111111">Mermaid 流程图 → 国标流程图 SVG</text>
+<text x="44" y="100" font-family="'Microsoft YaHei', sans-serif" font-size="18" fill="#555555">按 GB/T 1526-1989 图形符号绘制（等同采用 ISO 5807）· 正交走线每线 ≤3 转折 · 超 A4/A3 自动分页</text>
+<rect x="44" y="114" width="86" height="4" fill="#c0392b"/>
+<rect x="44" y="235" width="470" height="390" rx="10" fill="#1e2229"/>
+<rect x="44" y="235" width="470" height="34" rx="10" fill="#2b313a"/>
+<rect x="44" y="259" width="470" height="10" fill="#2b313a"/>
+<circle cx="66" cy="252" r="6" fill="#e06c75"/>
+<circle cx="88" cy="252" r="6" fill="#e5c07b"/>
+<circle cx="110" cy="252" r="6" fill="#98c379"/>
+<text x="136" y="257" font-family="Consolas, Menlo, monospace" font-size="14" fill="#9aa4b2">属性配置流程.mmd</text>
+<text x="66" y="299" xml:space="preserve" font-family="Consolas, Menlo, monospace" font-size="16" fill="#d7dae0">graph TD;</text>
+<text x="66" y="327" xml:space="preserve" font-family="Consolas, Menlo, monospace" font-size="16" fill="#d7dae0">    A((开始)) --&gt; B[创建Properties对象];</text>
+<text x="66" y="355" xml:space="preserve" font-family="Consolas, Menlo, monospace" font-size="16" fill="#d7dae0">    B --&gt; C{遍历列表模型};</text>
+<text x="66" y="383" xml:space="preserve" font-family="Consolas, Menlo, monospace" font-size="16" fill="#d7dae0">    C -- 是 --&gt; D[添加目录路径到属性];</text>
+<text x="66" y="411" xml:space="preserve" font-family="Consolas, Menlo, monospace" font-size="16" fill="#d7dae0">    D --&gt; C;</text>
+<text x="66" y="439" xml:space="preserve" font-family="Consolas, Menlo, monospace" font-size="16" fill="#d7dae0">    C -- 否 --&gt; E{尝试打开配置文件};</text>
+<text x="66" y="467" xml:space="preserve" font-family="Consolas, Menlo, monospace" font-size="16" fill="#d7dae0">    E -- 是 --&gt; F[保存属性到文件];</text>
+<text x="66" y="495" xml:space="preserve" font-family="Consolas, Menlo, monospace" font-size="16" fill="#d7dae0">    F --&gt; G((结束));</text>
+<text x="66" y="523" xml:space="preserve" font-family="Consolas, Menlo, monospace" font-size="16" fill="#d7dae0">    E -- 否 --&gt; H[显示错误信息];</text>
+<text x="66" y="551" xml:space="preserve" font-family="Consolas, Menlo, monospace" font-size="16" fill="#d7dae0">    H --&gt; G;</text>
+<text x="66" y="609" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#7f8896">输入：一段 Mermaid 源码，或一个含 mermaid 代码块的 .md</text>
+<path d="M522,430 H566" stroke="#c0392b" stroke-width="4" fill="none"/>
+<polygon points="566,421 566,439 584,430" fill="#c0392b"/>
+<text x="547" y="412" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="15" fill="#c0392b">转换</text>
+<rect x="580" y="150" width="656" height="560" rx="10" fill="#fafafa" stroke="#e2e2e2"/>
+<rect x="580" y="150" width="656" height="34" rx="10" fill="#f0f0f0"/>
+<rect x="580" y="174" width="656" height="10" fill="#f0f0f0"/>
+<text x="598" y="172" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">输出：属性配置流程.svg —— 真实生成结果，未经重绘</text>
+<g transform="translate(739.4,178.0) scale(0.6462)">
+  
+    
+    <rect x="0" y="0" width="522" height="780" fill="#FFFFFF"/>
+    <!-- 图形符号（GB/T 1526） -->
+    <g font-family="SimSun, &apos;宋体&apos;, &apos;Microsoft YaHei&apos;, sans-serif" font-size="14" fill="#000000" text-anchor="middle" stroke-linejoin="round" stroke-linecap="round">
+      <g transform="translate(266.4,30)">
+    <rect x="-32" y="0" width="64" height="42" rx="21" ry="21" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="-84" y="114" width="168" height="46" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+    <polygon points="0,232 78,268 0,304 -78,268" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="-204" y="389" width="162" height="46" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+    <polygon points="105,376 204,412 105,448 6,412" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="-151" y="520" width="134" height="46" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="-32" y="638" width="64" height="42" rx="21" ry="21" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="31" y="520" width="120" height="46" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M0,42 L0,104" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M0,160 L0,222" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M0,304 L0,340 L-123,340 L-123,379" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M-204,412 L-236.4,412 L-236.4,206.8 L0,206.8 L0,222" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M78,268 L105,268 L105,366" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M105,448 L105,484 L-84,484 L-84,510" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M-84,566 L-84,602 L0,602 L0,628" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M204,412 L204,498 L91,498 L91,510" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M91,566 L91,616 L0,616 L0,628" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <polygon points="-4.5,104 4.5,104 0,114" fill="#000000" stroke="none"/>
+    <polygon points="-4.5,222 4.5,222 0,232" fill="#000000" stroke="none"/>
+    <polygon points="-127.5,379 -118.5,379 -123,389" fill="#000000" stroke="none"/>
+    <polygon points="-4.5,222 4.5,222 0,232" fill="#000000" stroke="none"/>
+    <polygon points="100.5,366 109.5,366 105,376" fill="#000000" stroke="none"/>
+    <polygon points="-88.5,510 -79.5,510 -84,520" fill="#000000" stroke="none"/>
+    <polygon points="-4.5,628 4.5,628 0,638" fill="#000000" stroke="none"/>
+    <polygon points="86.5,510 95.5,510 91,520" fill="#000000" stroke="none"/>
+    <polygon points="-4.5,628 4.5,628 0,638" fill="#000000" stroke="none"/>
+    <text x="0" y="21" dy="0.35em">开始</text>
+    <text x="0" y="137" dy="0.35em">创建Properties对象</text>
+    <text x="0" y="268" dy="0.35em">遍历列表模型</text>
+    <text x="-123" y="412" dy="0.35em">添加目录路径到属性</text>
+    <text x="105" y="412" dy="0.35em">尝试打开配置文件</text>
+    <text x="-84" y="543" dy="0.35em">保存属性到文件</text>
+    <text x="0" y="659" dy="0.35em">结束</text>
+    <text x="91" y="543" dy="0.35em">显示错误信息</text>
+    <rect x="-15" y="342" width="18" height="20" fill="#FFFFFF" stroke="none"/>
+    <text x="-6" y="352" dy="0.35em" font-size="12">是</text>
+    <rect x="108" y="273" width="18" height="20" fill="#FFFFFF" stroke="none"/>
+    <text x="117" y="283" dy="0.35em" font-size="12">否</text>
+    <rect x="90" y="486" width="18" height="20" fill="#FFFFFF" stroke="none"/>
+    <text x="99" y="496" dy="0.35em" font-size="12">是</text>
+    <rect x="207" y="444" width="18" height="20" fill="#FFFFFF" stroke="none"/>
+    <text x="216" y="454" dy="0.35em" font-size="12">否</text>
+      </g>
+    </g>
+    <text x="261" y="763" text-anchor="middle" fill="#000000" font-family="SimHei, &apos;黑体&apos;, &apos;Microsoft YaHei&apos;, sans-serif" font-size="12">图 1  属性配置文件创建流程</text>
+  
+</g>
+<rect x="44" y="748" width="10" height="10" rx="2" fill="#c0392b"/>
+<text x="64" y="758" font-family="SimHei, '黑体', sans-serif" font-size="18" fill="#1a1a1a">符号合规</text>
+<text x="64" y="784" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#777777">GB/T 1526-1989 全部 17 个图形符号</text>
+<rect x="441.3333333333333" y="748" width="10" height="10" rx="2" fill="#c0392b"/>
+<text x="461.3333333333333" y="758" font-family="SimHei, '黑体', sans-serif" font-size="18" fill="#1a1a1a">画法可读</text>
+<text x="461.3333333333333" y="784" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#777777">判断框「是」向下、「否」向右；入线走上中部</text>
+<rect x="838.6666666666666" y="748" width="10" height="10" rx="2" fill="#c0392b"/>
+<text x="858.6666666666666" y="758" font-family="SimHei, '黑体', sans-serif" font-size="18" fill="#1a1a1a">开箱可用</text>
+<text x="858.6666666666666" y="784" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#777777">A4/A3 分页 + 图框 + 异地连接符</text>
+<text x="640" y="844" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="15" fill="#999999">dsh plugin --profile web add dsh-plugin-mermaid-gb-svg</text>
+</svg>

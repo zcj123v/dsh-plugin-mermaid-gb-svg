@@ -11,6 +11,8 @@ ISO 5807:1985), and exposes it to the model as one tool.
 
 ## Preview
 
+![Mermaid flowcharts to GB/T 1526-1989 compliant SVG](assets/promo-compare.png)
+
 | GB/T 1526-1989 symbol chart | Generated flowchart |
 |---|---|
 | <img src="examples/gb-1526-symbols.svg" alt="GB/T 1526-1989 symbols" width="240"> | <img src="examples/attribute-config.svg" alt="Generated flowchart" width="300"> |

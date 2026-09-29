@@ -13,6 +13,8 @@
 
 ## 效果预览
 
+![Mermaid 流程图转 GB/T 1526-1989 国标 SVG](assets/promo-compare.png)
+
 | GB/T 1526-1989 符号对照 | 生成的流程图 |
 |---|---|
 | <img src="examples/gb-1526-symbols.svg" alt="GB/T 1526-1989 图形符号" width="240"> | <img src="examples/attribute-config.svg" alt="生成的流程图" width="300"> |
